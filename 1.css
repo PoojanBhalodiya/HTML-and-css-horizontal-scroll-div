@@ -1,0 +1,36 @@
+.container {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y:auto; 
+    
+    width: auto;
+    height: auto;
+    background-color: #1c2a44;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 9px 0 #3d4040, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+.img-container {
+    display:flex;
+    flex-direction: row;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+img{
+    width: 40%;
+    height: 40%;
+    box-shadow: 0% 0% 50% black;
+    margin-right: 3.5%;
+
+}
